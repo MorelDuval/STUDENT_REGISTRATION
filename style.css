@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: #ffffff;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.header {
+    background-color: #1a365d;
+    color: white;
+    padding: 15px 20px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.form-body {
+    padding: 20px;
+}
+
+.form-instruction {
+    color: #4a5568;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 0.88rem;
+    margin-bottom: 6px;
+    color: #2d3748;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #3182ce;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    font-size: 0.9rem;
+    align-items: center;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 0.88rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #1a365d;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #2b4c7e;
+}
+
+.error {
+    color: #e53e3e;
+    font-size: 0.8rem;
+    margin-top: 4px;
+    display: block;
+}
+
+.alert-success {
+    background-color: #c6f6d5;
+    color: #22543d;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.alert-error {
+    background-color: #fed7d7;
+    color: #742a2a;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
